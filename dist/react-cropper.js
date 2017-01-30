@@ -52,7 +52,7 @@ var ReactCropper = function (_Component) {
         return _extends({}, prevOptions, _defineProperty({}, propKey, _this2.props[propKey]));
       }, {});
 
-      var Cropper = require('cropperjs').default;
+      var Cropper = require('cropperjs');
       this.cropper = new Cropper(this.img, options);
     }
   }, {
